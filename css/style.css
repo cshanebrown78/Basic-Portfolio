@@ -9,7 +9,7 @@ html, body {
    width: 100%;
    margin: 0px;
    padding: 0px;
-   overflow: hidden;
+   overflow: auto;
 }
 
 body{
@@ -17,13 +17,14 @@ body{
     color: #777777;
     display: flex;
     flex-direction: column;
-}
+    background: url("../images/background.png");
+    }
 
 .container {
     max-width: 960px;
-    margin: auto;
+    margin: 20px auto 20px auto;
     overflow: auto;
-    border-color: #dddddd;
+    border: #dddddd 1px solid;
     background: #ffffff;
     padding: 0 20px 0 20px;
     flex: 1 0 auto;
@@ -31,17 +32,6 @@ body{
 
 p{
     line-height: 175%;
-}
-
-.full{
-    width: 100%;
-    clear: both;
-    overflow: overlay;
-    background: url("../images/background.png");
-    border-top: #afb6b5 2px solid;
-    padding: 20px 0px 20px 0px;
-    height: 100%;
-    
 }
 
 /* Main Content */
@@ -53,7 +43,6 @@ p{
 
 .secondary h1{
     color: #4aaaa5;
-    border-bottom: #bfc5c5 2px solid;
     padding-bottom: 10px;    
 }
 
@@ -73,8 +62,9 @@ p{
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #ffffff;
-    border-color: #cccccc;
-    margin-bottom: 0px;    
+    border-color: #cccccc 2px solid;
+    margin-bottom: 0px;
+    border-bottom: #dddddd 2px solid;  
 }
 
 .heading{
@@ -110,6 +100,11 @@ ul {
 header li{
     display: inline;
     padding: 0 10px 0 10px;
+}
+
+
+header a:hover {
+    color: #4aaaa5;
 }
 
 /* portfolio */

@@ -104,6 +104,10 @@ header li{
 
 
 header a:hover {
+    color: red;
+}
+
+.current a{
     color: #4aaaa5;
 }
 

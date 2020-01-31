@@ -65,7 +65,7 @@ header {
     background: #ffffff;
     border-color: #cccccc 2px solid; 
     margin-bottom: 0px;
-    border-bottom: #dddddd 2px solid;  
+    border-bottom: #dddddd 2px solid;
 }
 
 .heading{
@@ -219,6 +219,7 @@ header a:hover {
 .row::after{
     clear: both;
     display: table;
+    
 }
 
 /* Contact */
